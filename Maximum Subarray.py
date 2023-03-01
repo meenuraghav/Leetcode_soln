@@ -1,4 +1,4 @@
-```python
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         sums=0
@@ -8,4 +8,3 @@ class Solution:
             if (sums>maxi):maxi=sums
             if (sums<0):sums=0
         return maxi
-```
